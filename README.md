@@ -47,14 +47,17 @@ Unlike traditional EDRs that alert and wait, TITAN acts. It validates its own ef
 
 ### 1. Real-Time Threat Neutralization (Terminal)
 *TITAN identifying a Ransomware attack, calculating risk via MCTS, and deploying a patch in 0.22s.*
-
+![Terminal Output](assets/terminal_screenshot.png.png)
 
 ### 2. Autonomous Decision Dashboard
 *Live view of system health, active threats, and process risk scoring.*
-
+![Dashboard](assets/dashboard_screenshot.png.png)
 
 ### 3. Compliance-Ready Incident Reports
 *Automated XAI report generated post-incident for auditing purposes.*
+![XAI Report](assets/report_screenshot.png.png)
+
+---
 
 ## 🚀 Quick Start (Cloud/Local)
 
@@ -63,28 +66,4 @@ TITAN v16 is designed with a **Zero-Dependency Architecture**. It runs on standa
 ### Installation
 ```bash
 git clone [https://github.com/YOUR_USERNAME/project-titan-v16.git](https://github.com/YOUR_USERNAME/project-titan-v16.git)
-cd project-titan-v16# project-titanThis mode runs a self-teaching scenario where TITAN attacks itself, learns, and proves adaptation.
-
-Bash
-
-python titan_v16.py
-Note: For safety, the public release defaults to DEMO mode which runs in a constrained loop.
-
-🏗️ Architecture
-Code snippet
-
-graph TD
-    A[Attack Simulation] -->|Syscalls| B(NUCLEUS Sensor)
-    B -->|Entropy & Behavior| C{HIVE Engine}
-    C -->|MCTS Simulations| D[Decision Action]
-    D -->|Execute| E[OUROBOROS Patch]
-    E -->|Update| F[Knowledge Graph]
-    F -->|Feedback| B
-    D -->|Log| G[XAI Report Generator]
-📜 Philosophy
-Traditional security is reactive. We wait for a breach, patch it, and hope.
-
-TITAN is proactive. By continuously validating its own defenses through simulated self-attacks, it ensures that when a real threat arrives, the "immune response" is already trained and ready.
-
-📄 License
-Copyright © 2025 Sinalo Maphanga. All Rights Reserved.
+cd project-titan-v16
