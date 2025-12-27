@@ -56,9 +56,6 @@ Unlike traditional EDRs that alert and wait, TITAN acts. It validates its own ef
 ### 3. Compliance-Ready Incident Reports
 *Automated XAI report generated post-incident for auditing purposes.*
 ![XAI Report](assets/report_screenshot.png)
-
----
-
 ## 🚀 Quick Start (Cloud/Local)
 
 TITAN v16 is designed with a **Zero-Dependency Architecture**. It runs on standard Python 3 libraries.
