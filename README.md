@@ -47,15 +47,15 @@ Unlike traditional EDRs that alert and wait, TITAN acts. It validates its own ef
 
 ### 1. Real-Time Threat Neutralization (Terminal)
 *TITAN identifying a Ransomware attack, calculating risk via MCTS, and deploying a patch in 0.22s.*
-![Terminal Output](assets/terminal_screenshot.png)
+
 
 ### 2. Autonomous Decision Dashboard
 *Live view of system health, active threats, and process risk scoring.*
-![Dashboard](assets/dashboard_screenshot.png)
+
 
 ### 3. Compliance-Ready Incident Reports
 *Automated XAI report generated post-incident for auditing purposes.*
-![XAI Report](assets/report_screenshot.png)
+
 ## 🚀 Quick Start (Cloud/Local)
 
 TITAN v16 is designed with a **Zero-Dependency Architecture**. It runs on standard Python 3 libraries.
